@@ -9,6 +9,13 @@ Development time is 23 Hour.
 
 Default username and password is 'etiqa@testing.com' and 'iloveetiqa'.
 
+This website is to manage freelance developers. 
+It consist of an login page, overall page and user management page.
+Overall page - a simple dashboard to show quick information of freelances.
+User management page - where user will add, edit delete and view freelances.
+
+Access the Website [Here](http://etiqa.cnd.com.s3-website-ap-southeast-1.amazonaws.com/)
+
 ## Installation
 
 ```bash
