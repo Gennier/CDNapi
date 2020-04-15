@@ -14,7 +14,7 @@ import { OverviewModule } from './overview/overview.module';
     OverviewModule,
     UserModule,
     FreelanceModule,
-    MongooseModule.forRoot('mongodb://localhost:27017/Etiqa')
+    MongooseModule.forRoot(process.env.MONGODB_URI || 'mongodb://localhost:27017/Etiqa')
   ],
   controllers: [AppController],
   providers: [AppService],
