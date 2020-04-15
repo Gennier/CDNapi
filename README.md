@@ -16,6 +16,8 @@ User management page - where user will add, edit delete and view freelances.
 
 Take note that while adding freelance, email and phone must be unique.
 
+Route Guard implemented
+
 Access the Website [Here](http://etiqa.cnd.com.s3-website-ap-southeast-1.amazonaws.com/)
 
 ## Installation
