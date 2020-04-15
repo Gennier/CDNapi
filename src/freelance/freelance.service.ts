@@ -18,7 +18,7 @@ export class FreelanceService {
 
             const check = await this.freelanceModel.find({ $or: [{email: email}, {phone: phone}]});
 
-            if (check) {
+            if (check.length > 0) {
                 throw new BadRequestException('Already Exist');
             }
             
